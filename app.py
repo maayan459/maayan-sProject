@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.write("Omer's website is not that succssesful as Maayan's website")
+
 
 
 
