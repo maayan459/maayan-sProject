@@ -62,7 +62,7 @@ df = generate_dataset()
 st.dataframe(df)
 st.scatter_chart(
     df,
-    x="longitude",
-    y="latitude",
+    x="signal_strength",
+    y="signal_duration",
     color="launch_to_israel"
 )
