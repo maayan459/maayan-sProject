@@ -54,5 +54,15 @@ def generate_dataset(n=2000, noise_ratio=0.05, random_state=42):
 
     return df
 
+
+
 df = generate_dataset()
+
+
 st.dataframe(df)
+st.scatter_chart(
+    df,
+    x="longitude",
+    y="latitude",
+    color="launch_to_israel"
+)
