@@ -62,7 +62,7 @@ df = generate_dataset()
 st.dataframe(df)
 st.scatter_chart(
     df,
-    x="hour",
-    y="day_of_week",
+    x="time_to_peak",
+    y="signal_strength",
     color="launch_to_israel"
 )
